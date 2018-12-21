@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/cloudClient/pom.xml" />
         <option value="$PROJECT_DIR$/cloudServer/pom.xml" />
         <option value="$PROJECT_DIR$/cloudRibbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudFeign/pom.xml" />
       </list>
     </option>
   </component>
