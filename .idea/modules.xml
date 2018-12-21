@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudClient/client.iml" filepath="$PROJECT_DIR$/cloudClient/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudClient/demo (1).iml" filepath="$PROJECT_DIR$/cloudClient/demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudServer/demo (2).iml" filepath="$PROJECT_DIR$/cloudServer/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudRibbon/ribbon.iml" filepath="$PROJECT_DIR$/cloudRibbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudServer/servert.iml" filepath="$PROJECT_DIR$/cloudServer/servert.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
     </modules>

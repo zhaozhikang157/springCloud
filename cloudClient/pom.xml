@@ -11,7 +11,7 @@
 	<groupId>com.cloud.client</groupId>
 	<artifactId>client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cloud</name>
+	<name>client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

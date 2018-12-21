@@ -9,13 +9,13 @@
         <module name="client" />
         <module name="demo (1)" />
         <module name="demo (2)" />
+        <module name="ribbon" />
         <module name="servert" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
-      <module name="demo (1)" target="1.8" />
-      <module name="demo (2)" target="1.8" />
+      <module name="ribbon" target="1.8" />
       <module name="servert" target="1.8" />
     </bytecodeTargetLevel>
   </component>
