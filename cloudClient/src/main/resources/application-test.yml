@@ -5,3 +5,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8082/eureka/
+
+spring:
+  cloud:
+    config:
+      label: master
+      profile: test
+      uri: http://localhost:8082/

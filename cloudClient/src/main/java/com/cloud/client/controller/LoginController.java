@@ -11,10 +11,12 @@ public class LoginController {
 
     @Value("${server.port}")
     private String port;
+    @Value("${name}")
+    private String name;
 
     @GetMapping("/login")
     public String login(){
-        System.out.println("--------登陆成功---------");
-        return "登陆成功，端口号："+port;
+        System.out.println("----name:"+name+"----登陆成功---------");
+        return "name:"+name+" ,登陆成功，端口号："+port;
     }
 }
