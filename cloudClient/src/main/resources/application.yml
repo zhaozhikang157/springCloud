@@ -1,5 +1,5 @@
 spring:
+  application:
+      name: eureka-client
   profiles:
     active: test
-  application:
-    name: eurka-client
