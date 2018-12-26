@@ -1,5 +1,5 @@
 server:
-  port: 7011
+  port: 7010
 
 spring:
   cloud:
@@ -15,5 +15,5 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
+      defaultZone: http://peer1:8761/eureka/
 
