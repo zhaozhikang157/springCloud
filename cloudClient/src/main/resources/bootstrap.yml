@@ -3,4 +3,12 @@ spring:
     config:
       label: master
       profile: test
-      uri: http://localhost:8082/
+      discovery:
+        enabled: true
+        service-id: config-server
+#      uri: http://localhost:8082/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/

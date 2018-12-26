@@ -1,5 +1,6 @@
 server:
-  port: 7010
+  port: 7011
+
 spring:
   cloud:
     config:
@@ -10,4 +11,9 @@ spring:
           password:
           search-paths:
       label: master
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
 

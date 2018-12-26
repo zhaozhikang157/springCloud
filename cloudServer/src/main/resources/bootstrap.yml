@@ -1,10 +1,10 @@
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/zhaozhikang157/springCloudConfig
-          username:
-          password:
-          search-paths:
-      label: master
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/zhaozhikang157/springCloudConfig
+#          username:
+#          password:
+#          search-paths:
+#      label: master

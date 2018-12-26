@@ -1,7 +1,4 @@
 server:
   port: 8087  #配置都可以直接写在配置文件放在git
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
+
