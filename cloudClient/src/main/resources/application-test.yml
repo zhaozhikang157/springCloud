@@ -1,5 +1,5 @@
 server:
-  port: 8081  #配置都可以直接写在配置文件放在git
+  port: 8087  #配置都可以直接写在配置文件放在git
 
 eureka:
   client:
