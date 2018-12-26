@@ -13,6 +13,6 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public String login() {
-        return restTemplate.getForObject("http://eurka-client/login/login",String.class);
+        return restTemplate.getForObject("http://eureka-client/login/login",String.class);
     }
 }

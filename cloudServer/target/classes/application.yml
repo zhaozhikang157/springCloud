@@ -2,4 +2,4 @@ spring:
   profiles:
     active: peer2
   application:
-    name: eurka-server
+    name: eureka-server

@@ -2,4 +2,4 @@ spring:
   profiles:
     active: test
   application:
-    name: eurka-feign
+    name: eureka-feign

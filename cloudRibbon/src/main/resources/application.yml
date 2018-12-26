@@ -2,4 +2,4 @@ spring:
   profiles:
     active: test
   application:
-    name: eurka-ribbon
+    name: eureka-ribbon
