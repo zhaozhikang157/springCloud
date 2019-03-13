@@ -4,7 +4,7 @@ import com.cloud.feign.service.LoginService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class LoginServiceHystric implements LoginService {
+public class LoginServiceHystric implements LoginRpc{
 
     @Override
     public String loginFeign() {

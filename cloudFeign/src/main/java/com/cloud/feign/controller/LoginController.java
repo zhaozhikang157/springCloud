@@ -15,6 +15,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login(){
-        return loginService.loginFeign();
+        return loginService.login();
     }
 }

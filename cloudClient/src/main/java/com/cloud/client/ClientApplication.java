@@ -1,5 +1,6 @@
 package com.cloud.client;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -8,6 +9,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @SpringBootApplication
 @EnableEurekaClient
+@MapperScan("com.cloud.client.dao")
 public class ClientApplication {
 
 	public static void main(String[] args) {

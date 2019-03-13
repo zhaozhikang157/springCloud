@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloudClient/client.iml" filepath="$PROJECT_DIR$/cloudClient/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudClient/client.iml" filepath="$PROJECT_DIR$/cloudClient/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudConfigClient/configClient.iml" filepath="$PROJECT_DIR$/cloudConfigClient/configClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudConfigServer/configServert.iml" filepath="$PROJECT_DIR$/cloudConfigServer/configServert.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudFeign/feign.iml" filepath="$PROJECT_DIR$/cloudFeign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudFeign/feign.iml" filepath="$PROJECT_DIR$/cloudFeign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudRibbon/ribbon.iml" filepath="$PROJECT_DIR$/cloudRibbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudRibbon/ribbon.iml" filepath="$PROJECT_DIR$/cloudRibbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudServer/servert.iml" filepath="$PROJECT_DIR$/cloudServer/servert.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
