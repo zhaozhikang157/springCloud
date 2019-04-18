@@ -8,10 +8,10 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cloud.feign</groupId>
-	<artifactId>feign</artifactId>
+	<groupId>com.cloud.client_1</groupId>
+	<artifactId>client_1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>feign</name>
+	<name>client_1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -25,10 +25,6 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
@@ -36,18 +32,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -73,7 +66,6 @@
 			<artifactId>txlcn-txmsg-netty</artifactId>
 			<version>5.0.2.RELEASE</version>
 		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>

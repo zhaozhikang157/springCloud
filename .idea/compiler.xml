@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="client_1" />
         <module name="configClient" />
         <module name="configServert" />
         <module name="demo (1)" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
+      <module name="client_1" target="1.8" />
       <module name="configClient" target="1.8" />
       <module name="configServert" target="1.8" />
       <module name="feign" target="1.8" />
@@ -28,6 +30,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
+      <module name="client_1" options="-parameters" />
       <module name="configClient" options="-parameters" />
       <module name="configServert" options="-parameters" />
       <module name="feign" options="-parameters" />
