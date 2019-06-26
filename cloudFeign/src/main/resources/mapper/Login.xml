@@ -3,6 +3,6 @@
 <mapper namespace="com.cloud.feign.dao.LoginDao" >
 
     <update id="login">
-      update `order` set amout = '1' where id ='2'
+      update `user` set name = 'uzi' where id ='13'
     </update>
 </mapper>

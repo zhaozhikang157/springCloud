@@ -23,7 +23,7 @@ public class LoginServiceImpl implements LoginService {
     @Transactional
     @LcnTransaction
     public String login() {
-        //loginDao.login();
+        loginDao.login();
         loginRpc.loginFeign();
         loginRpc_1.loginFeign();
         throw new RuntimeException();
