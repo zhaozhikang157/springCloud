@@ -20,12 +20,13 @@ public class LoginServiceImpl implements LoginService {
     private LoginRpc_1 loginRpc_1;
 
     @Override
-    @Transactional
     @LcnTransaction
+    @Transactional
     public String login() {
         loginDao.login();
         loginRpc.loginFeign();
         loginRpc_1.loginFeign();
-        throw new RuntimeException();
+//        throw new RuntimeException();
+        return "";
     }
 }

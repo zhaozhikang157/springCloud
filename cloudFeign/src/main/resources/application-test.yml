@@ -37,6 +37,16 @@ spring:
       remove-abandoned-timeout: 180 #关闭空闲连接超时时间
       log-abandoned: true
 
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
 logging:
   level:
     com.mapper : debug
+
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
+  logger:
+    enabled: true

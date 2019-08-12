@@ -7,6 +7,7 @@ public class LoginServiceHystric_1 implements LoginRpc_1{
 
     @Override
     public String loginFeign() {
-        return "断了断了";
+        throw new RuntimeException();
+//        return "断了断了";
     }
 }
