@@ -14,7 +14,7 @@
         <module name="demo (2)" />
         <module name="feign" />
         <module name="ribbon" />
-        <module name="servert" />
+        <module name="shard-jdbc-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +25,7 @@
       <module name="feign" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="servert" target="1.8" />
+      <module name="shard-jdbc-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +37,7 @@
       <module name="feign" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="servert" options="-parameters" />
+      <module name="shard-jdbc-starter" options="-parameters" />
     </option>
   </component>
 </project>
