@@ -13,6 +13,7 @@
         <module name="demo (1)" />
         <module name="demo (2)" />
         <module name="feign" />
+        <module name="java_test" />
         <module name="ribbon" />
         <module name="shard-jdbc-starter" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="configClient" target="1.8" />
       <module name="configServert" target="1.8" />
       <module name="feign" target="1.8" />
+      <module name="java_test" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="servert" target="1.8" />
       <module name="shard-jdbc-starter" target="1.8" />
@@ -35,6 +37,7 @@
       <module name="configClient" options="-parameters" />
       <module name="configServert" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="java_test" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="servert" options="-parameters" />
       <module name="shard-jdbc-starter" options="-parameters" />

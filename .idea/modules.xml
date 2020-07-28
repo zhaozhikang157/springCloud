@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudConfigClient/configClient.iml" filepath="$PROJECT_DIR$/cloudConfigClient/configClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudConfigServer/configServert.iml" filepath="$PROJECT_DIR$/cloudConfigServer/configServert.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudFeign/feign.iml" filepath="$PROJECT_DIR$/cloudFeign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaTest/java_test.iml" filepath="$PROJECT_DIR$/javaTest/java_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudRibbon/ribbon.iml" filepath="$PROJECT_DIR$/cloudRibbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding/shard-jdbc-starter.iml" filepath="$PROJECT_DIR$/sharding/shard-jdbc-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />

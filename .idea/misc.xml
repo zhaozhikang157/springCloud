@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/cloudClient_1/pom.xml" />
         <option value="$PROJECT_DIR$/cloudClient/pom.xml" />
         <option value="$PROJECT_DIR$/sharding/pom.xml" />
+        <option value="$PROJECT_DIR$/javaTest/pom.xml" />
       </list>
     </option>
   </component>
