@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/cloudClient/client.iml" filepath="$PROJECT_DIR$/cloudClient/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudClient_1/client_1.iml" filepath="$PROJECT_DIR$/cloudClient_1/client_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudConfigClient/configClient.iml" filepath="$PROJECT_DIR$/cloudConfigClient/configClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloudConfigServer/configServert.iml" filepath="$PROJECT_DIR$/cloudConfigServer/configServert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticSearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticSearch/elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudFeign/feign.iml" filepath="$PROJECT_DIR$/cloudFeign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaTest/java_test.iml" filepath="$PROJECT_DIR$/javaTest/java_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongoDb/mongodb.iml" filepath="$PROJECT_DIR$/mongoDb/mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudRibbon/ribbon.iml" filepath="$PROJECT_DIR$/cloudRibbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudServer/servert.iml" filepath="$PROJECT_DIR$/cloudServer/servert.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding/shard-jdbc-starter.iml" filepath="$PROJECT_DIR$/sharding/shard-jdbc-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
     </modules>

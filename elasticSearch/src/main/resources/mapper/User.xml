@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sharding.first.dao.UserDao" >
+
+    <insert id="insertUser" parameterType="java.util.Map">
+      insert into t_user
+      (
+        id,name,city_id,sex,phone,email,create_time,password
+      )
+      values
+      (
+        #{id},#{name},#{city_id},#{sex},#{phone},#{email},#{create_time},#{password}
+      )
+    </insert>
+
+    <update id="updateUser" parameterType="java.util.Map" >
+        update t_user set name = '卢本伟' where id = #{id}
+    </update>
+
+    <delete id="delUser" parameterType="java.util.Map" >
+        delete from t_user where id = #{id}
+    </delete>
+
+    <delete id="delAllUser" parameterType="java.util.Map" >
+        delete from t_user
+    </delete>
+
+    <select id="queryUser" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        * from t_user order by id desc
+    </select>
+
+    <select id="queryUserLimit" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        * from t_user order by id desc limit 5
+    </select>
+
+    <select id="queryOrder" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        * from t_order
+    </select>
+
+    <select id="joinUser" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        t.* from t_user t
+        join t_order_2 o on o.id = t.id
+        order by id desc
+    </select>
+
+    <select id="queryOrder2" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        * from t_order_2
+    </select>
+</mapper>

@@ -6,11 +6,13 @@
         <option value="$PROJECT_DIR$/cloudRibbon/pom.xml" />
         <option value="$PROJECT_DIR$/cloudFeign/pom.xml" />
         <option value="$PROJECT_DIR$/cloudConfigClient/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/cloudClient_1/pom.xml" />
         <option value="$PROJECT_DIR$/cloudClient/pom.xml" />
         <option value="$PROJECT_DIR$/sharding/pom.xml" />
         <option value="$PROJECT_DIR$/javaTest/pom.xml" />
+        <option value="$PROJECT_DIR$/mongoDb/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudServer/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticSearch/pom.xml" />
       </list>
     </option>
   </component>
